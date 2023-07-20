@@ -16,6 +16,7 @@ public class App {
     if (a == b || a == c || b == c) {
       return "es un triangulo isoceles";
     }
+    // En caso default, es triangulo escaleno
     return "es un triangulo escaleno";
   }
 
